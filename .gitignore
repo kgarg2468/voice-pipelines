@@ -1,0 +1,16 @@
+# secrets — never commit
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# engine / runtime cruft
+*.pid
+engine-*.pid
+
+# os
+.DS_Store
+
+# stray Obsidian / demo artifacts (the live presence note is written at runtime)
+vault/Untitled.canvas
